@@ -1,0 +1,22 @@
+.cards-container {
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr));
+  gap: 25px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.score {
+  display: flex;
+  gap: 20px;
+}
+
+h1 {
+  margin-top: 0;
+}
